@@ -1,0 +1,115 @@
+.item {
+  width: 320px;
+  height: 480px;
+  background-image: url("../../assets/img/card/back.png");
+  background-size: contain;
+  font-family: 'Trebuchet MS';
+}
+
+.item-border {
+  position: absolute;
+  height: 480px;
+  width: 320px;
+  z-index: 1;
+}
+
+.subtitle {
+  top: 21px;
+  left: 51px;
+  position: absolute;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.title {
+  top: 45px;
+  left: 49px;
+  position: absolute;
+  color: #000000;
+  font-weight: bold;
+  line-height: 56px;
+  font-size: 48px;
+}
+
+.taste {
+  top: 100px;
+  left: 51px;
+  position: absolute;
+  font-size: 24px;
+  color: #000000;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.description {
+  top: 143px;
+  left: 51px;
+  position: absolute;
+  font-size: 14px;
+  color: #666666;
+  line-height: 16px;
+}
+
+.photo {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: 360px;
+  width: 368px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  align-items: end;
+  margin-top: 208px;
+  height: 272px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.oval {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 384px;
+  left: 224px;
+  z-index: 1;
+}
+
+.weight {
+  position: absolute;
+  margin: 0;
+  color: rgb(255,255,255);
+  text-align: center!important;
+  width: 100%;
+}
+
+.weight.value {
+  top: 0px;
+  font-size: 42px;
+}
+
+.weight.unit {
+  top: 45px;
+  font-size: 21px;
+}
+
+.bottom-text {
+  margin-top: 13px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(255,255,255);
+}
+
+.bottom-link {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.item-contents {
+  position: absolute;
+  width: 320px;
+}
+

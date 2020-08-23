@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="480px" viewBox="0 0 320 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Border</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M308,0 C314.627417,-1.21743675e-15 320,5.372583 320,12 L320,468 C320,474.627417 314.627417,480 308,480 L12,480 C5.372583,480 8.11624501e-16,474.627417 0,468 L0,42.676 L42.676,0 L308,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card/SelectedHover">
+            <g id="Back">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <path stroke="#E52E7A" stroke-width="4" d="M318,12 L318,468 C318,470.761424 316.880712,473.261424 315.071068,475.071068 C313.261424,476.880712 310.761424,478 308,478 L12,478 C9.23857625,478 6.73857625,476.880712 4.92893219,475.071068 C3.11928813,473.261424 2,470.761424 2,468 L2,43.5044271 L43.5044271,2 L308,2 C310.761424,2 313.261424,3.11928813 315.071068,4.92893219 C316.880712,6.73857625 318,9.23857625 318,12 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+.background {
+  background: url("../../assets/img/bg.png") no-repeat center center fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+}
+
+.col-item {
+  min-height: 509px;
+  justify-content: center!important;
+  display: flex!important;
+  margin-bottom: 40px;
+  display: -ms-flexbox!important;
+  -ms-flex-pack: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Exo 2.0';
+  line-height: 44px;
+  margin-bottom: 24px;
+}
+
+body {
+  padding-top: 36px;
+}
+

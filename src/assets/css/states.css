@@ -1,0 +1,68 @@
+.item-border {
+  background-image: url("../../assets/img/card/border.svg");
+}
+
+.subtitle {
+  color: #666666;
+}
+
+.oval {
+  background-color: #1698D9;
+}
+
+.bottom-link {
+  color: #1698D9;
+}
+
+.item:hover .oval {
+  background-color: #2EA8E6;
+}
+
+.item:hover .item-border {
+  background-image: url("../../assets/img/card/border-hover.svg");
+}
+
+.item:hover .bottom-link {
+  color: #22A7E9;
+}
+
+.item.selected .oval {
+  background-color: #D91667;
+}
+
+.item.selected .item-border {
+  background-image: url("../../assets/img/card/border-selected.svg");
+}
+
+.item.selected:hover .oval {
+  background-color: #E52E7A;
+}
+
+.item.selected:hover .item-border {
+  background-image: url("../../assets/img/card/border-hover-selected.svg");
+}
+
+.item.selected:hover .subtitle {
+  color: #E62E7A;
+}
+
+.item.disabled .image-container {
+  opacity: 0.5;
+}
+
+.item.disabled .item-border {
+  background-image: url("../../assets/img/card/border-disabled.svg");
+}
+
+.item.disabled .title, .item.disabled .subtitle, .item.disabled .taste, .item.disabled .description {
+  color: #B3B3B3;
+}
+
+.item.disabled .oval {
+  background-color: #B3B3B3;
+}
+
+.item.disabled .bottom-text {
+  color: #FFFF66;
+}
+
